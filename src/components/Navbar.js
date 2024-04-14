@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  //const [button, setButton] = useState(true);
+  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  /*const showButton = () => {
+  const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
@@ -21,7 +22,7 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);*/
+  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -29,7 +30,6 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img className='logo' src='images/logo.png' alt='logo' />
-            Website
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                About Us
+                História
               </Link>
             </li>
             <li className='nav-item'>
@@ -55,6 +55,11 @@ function Navbar() {
                 Contacts
               </Link>
             </li>
+          </ul>
+          <ul className = 'languages'>
+            {button && <Button buttonStyle='btn--outline' buttonSize='btn--small'>PT</Button>}
+            {button && <Button buttonStyle='btn--outline' buttonSize='btn--small'>FR</Button>}
+            {button && <Button buttonStyle='btn--outline' buttonSize='btn--small'>ENG</Button>}
           </ul>
         </div>
       </nav>

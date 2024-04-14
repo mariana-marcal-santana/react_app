@@ -18,25 +18,16 @@
     max-width: 1500px;
   }
   
-  .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-  }
-
   .logo {
-    width: 70px;
-    height: 70px;
-    margin-left: -4.5rem;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 5px;
+    left: 80px;
   }
   
   .nav-menu {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
@@ -133,7 +124,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #000;
       font-size: 2rem;
     }
   
