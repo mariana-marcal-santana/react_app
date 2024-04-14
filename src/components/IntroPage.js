@@ -5,8 +5,7 @@ import '../App.css'
 function IntroPage() {
   return (
     <div className='intro-page-container'>
-      <img src='../../public/images/landscape.jpg' alt='intro' />
-        <h1>IntroPage</h1>
+      <img src='../../public/images/back-img.jpg' alt='intro' />
     </div>
   )
 }

@@ -1,0 +1,55 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  color: white;
+  background-color: #75231a;
+  border: 1px solid #000;
+  box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.1) inset;
+}
+
+.footer-logo {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 5px;
+  left: 80px;
+}
+
+.address {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.contacts-social-media {
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.contact-email {
+    display: grid;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.input-name {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    justify-content: top;
+}
+
+.input-email {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    justify-content: top;
+}
+

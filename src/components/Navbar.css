@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8);
   }
   
   .navbar-container {
@@ -38,7 +39,7 @@
   }
   
   .nav-item {
-    height: 80px;
+    height: 100px;
   }
   
   .nav-links {
@@ -52,7 +53,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #75231a;
     transition: all 0.2s ease-out;
   }
   

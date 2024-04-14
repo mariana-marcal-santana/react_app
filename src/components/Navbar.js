@@ -37,7 +37,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Página Inicial
               </Link>
             </li>
             <li className='nav-item'>
@@ -47,16 +47,16 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                Services
+                Serviços
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
-                Contacts
+                Contactos
               </Link>
             </li>
           </ul>
-          <ul className = 'languages'>
+          <ul className = 'lang-btns'>
             {button && <Button buttonStyle='btn--outline' buttonSize='btn--small'>PT</Button>}
             {button && <Button buttonStyle='btn--outline' buttonSize='btn--small'>FR</Button>}
             {button && <Button buttonStyle='btn--outline' buttonSize='btn--small'>ENG</Button>}

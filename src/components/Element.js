@@ -10,7 +10,7 @@ function Element(props) {
                 <img className='element-image' src={props.src} alt='element' />
             </figure>
             <div className='element-info'>
-                <h5 className='element-title'>{props.text}</h5>
+                <h5 className='element-text'>{props.text}</h5>
             </div>
         </Link>
       </li>
