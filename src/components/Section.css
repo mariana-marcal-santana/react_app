@@ -1,0 +1,32 @@
+.section {
+    padding: 4rem;
+    background: #fff;
+}
+
+.section-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-content {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.elements-items {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+}
+
+.element-figure {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+}
