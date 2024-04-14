@@ -1,6 +1,7 @@
 .navbar {
-    background: #fff;
-    height: 100px;
+    background: url('../../public/images/paper-back.jpg') ;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,26 +21,32 @@
   }
   
   .logo {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     top: 5px;
-    left: 80px;
+    left: 50px;
   }
   
   .nav-menu {
     display: flex;
     grid-template-columns: repeat(4, auto);
+    font-weight: bold;
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
+    justify-content: center;
     margin-right: 2rem;
+  }
+
+  .lang-btns {
+    justify-content: end;
+    margin-left: 0rem;
   }
   
   .nav-item {
-    height: 100px;
+    height: 85px;
   }
   
   .nav-links {

@@ -6,6 +6,7 @@
   height: 500px;
   color: white;
   background-color: #75231a;
+  font-size: large;
   border: 1px solid #000;
   box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.1) inset;
 }

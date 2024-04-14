@@ -5,7 +5,7 @@ import './Section.css'
 function Section() {
   return (
     <div className='section'>
-      <h1>Os nossos serviços</h1>
+      <h1>Os Nossos Serviços</h1>
       <div className='section-container'>
         <div className='section-content'>
             <ul className='elements-items'>

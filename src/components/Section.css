@@ -1,6 +1,7 @@
 .section {
-    padding: 4rem;
+    padding: 2rem;
     background: #fff;
+    color: #75231a;
   }
   
   h1 {
@@ -26,6 +27,7 @@
   }
   
   .element {
+    background-color: #fff;
     display: flex;
     flex: 1;
     margin: 0 1rem;
