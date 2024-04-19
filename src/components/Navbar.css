@@ -57,6 +57,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    position: relative;
+    left: 50px;
   }
   
   .nav-links:hover {
@@ -114,11 +116,12 @@
       border-radius: 0;
     }
   
-    .navbar-logo {
+    .logo {
+      width: 90px;
+      height: 90px;
       position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
+      top: 5px;
+      left: 80px;
     }
   
     .menu-icon {
